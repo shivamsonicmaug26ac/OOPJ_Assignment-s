@@ -3,20 +3,15 @@ import java.io.*;
 public class Employee {
 	public static void main(String[] args) {
 		String filePath = "C:\\Users\\ftt\\Desktop\\Cdac Notes\\java\\assignments\\employee.txt";
-
-		// Array of Employees
 		EmployeeApp[] empArray = {
 
-				new EmployeeApp(101, "Amit", 45000.0),
+				new EmployeeApp(101, "Shivam  Soni1", 45000.0),
 
-				new EmployeeApp(102, "Pankaj", 60000.0),
+				new EmployeeApp(102, "Shivam  Soni2", 60000.0),
 
-				new EmployeeApp(103, "Rahul", 55000.0) };
-
-		// Save Array to File
+				new EmployeeApp(103, "Shivam  Soni3", 55000.0) };
 		saveEmployees(filePath, empArray);
 
-		// Load Array from File
 		loadEmployees(filePath);
 	}
 
